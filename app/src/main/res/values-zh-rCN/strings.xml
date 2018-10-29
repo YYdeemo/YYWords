@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YY单词</string>
+    <string name="firstpage_title">今日任务</string>
+    <string name="study">学习</string>
+    <string name="review">复习</string>
+    <string name="newwords">新学单词：</string>
+    <string name="oldwords">复习单词：</string>
+    <string name="forget">忘记</string>
+    <string name="vague">模糊</string>
+    <string name="learn">认识</string>
+    <string name="home">首页</string>
+    <string name="total_num">已完成学习总量：</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    tools:context=".ReviewActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/review_bg"
+        android:alpha="0.75"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/total_num"
+            android:fontFamily="casual"
+            android:gravity="right"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/total_num"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="casual"
+            android:text="0"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="66dp">
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollingCache="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="20dp">
+
+    </ListView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/shape_bg2"
+        android:minHeight="60dp">
+        <Button
+            android:id="@+id/home_review"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:background="@drawable/shape_corner"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:fontFamily="casual"
+            android:textColor="@color/bg_grey"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:onClick="returnHome_review"/>
+
+        <Button
+            android:id="@+id/study_review"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/study"
+            android:background="@drawable/shape_corner"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:textColor="@color/bg_grey"
+            android:fontFamily="casual"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:onClick="returnStudy"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+

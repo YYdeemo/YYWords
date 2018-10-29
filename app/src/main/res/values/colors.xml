@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="myblue">#d8f1f5</color>
+    <color name="blue2">#FF4BC4D4</color>
+    <color name="mygreen">#c8e4cd</color>
+    <color name="mypink">#f8d5d0</color>
+    <color name="pink2">#f9dfee</color>
+    <color name="pink3">#FFC1709E</color>
+    <color name="myyellow">#fdf0d6</color>
+    <color name="mypurple">#e3def5</color>
+    <color name="dark">#FF1C1438</color>
+    <color name="red">#FF54333A</color>
+    <color name="white">#eee6e4</color>
+    <color name="bg_grey">#23201b</color>
+    <color name="button_color">#43413d</color>
+</resources>

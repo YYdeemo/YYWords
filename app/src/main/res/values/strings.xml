@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">YYWords</string>
+    <string name="firstpage_title">Today Task</string>
+    <string name="study">study</string>
+    <string name="review">review</string>
+    <string name="newwords">new words:</string>
+    <string name="oldwords">old words:</string>
+    <string name="forget">forget</string>
+    <string name="vague">vague</string>
+    <string name="learn">learn</string>
+    <string name="home">home</string>
+    <string name="total_num">total number: </string>
+</resources>
